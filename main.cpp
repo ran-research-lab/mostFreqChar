@@ -22,8 +22,7 @@ char mostFreqChar(const string &st) {
         A[c - 'a']++;
     }
 
-    for (int i = 0; i < lcRangeSize; i++) cout << A[i] << " ";
-    cout << endl;
+
 }
 
 TEST_CASE("mostFreqChar", "[mostFreqChar]") {
